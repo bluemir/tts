@@ -1,11 +1,31 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<script type="module">
-			import "/static/js/index.js";
+			import "./static/js/index.js";
 		</script>
+		<style>
+			@import "./static/css/main.css";
+		</style>
 	</head>
 	<body>
-		<h1>Hello world</h1>
+		<section id="root">
+			<section id="header">
+				<h1>TTS Board</h1>
+			</section>
+			<speech-queue id="logs"></speech-queue>
+			<section id="quick-bar">
+				<h2>Quick Bar</h2>
+				<ul>
+				</ul>
+			</section>
+			<form id="input">
+				<select>
+				</select>
+				<input/>
+				<button>Say</button>
+			</form>
+		</section>
 	</body>
 </html>
 

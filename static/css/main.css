@@ -1,0 +1,64 @@
+html, body {
+	margin: 0px;
+}
+
+#root {
+	display: grid;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+	"header header"
+	"log quick-bar"
+	"input input";
+}
+
+#header {
+	grid-area: header;
+}
+
+#logs {
+	grid-area: log;
+}
+#quick-bar {
+	grid-area: quick-bar;
+}
+
+
+#header h1  {
+	margin: 0;
+}
+#logs li {
+
+}
+#logs li.progress {
+	background: yellow;
+}
+#logs li.done {
+	background: gray;
+}
+#logs li.canceled {
+	background: red;
+}
+
+#input {
+	grid-area: input;
+	display: grid;
+
+	grid-template-columns: auto 1fr auto;
+	grid-template-rows: auto;
+}
+#input select {
+
+}
+#input input {
+
+}
+#input button {
+
+}
