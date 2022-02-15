@@ -1,3 +1,5 @@
+@import "../lib/fontawesome-free-6.0.0-web/css/all.css";
+
 html, body {
 	margin: 0px;
 }
@@ -33,18 +35,7 @@ html, body {
 #header h1  {
 	margin: 0;
 }
-#logs li {
 
-}
-#logs li.progress {
-	background: yellow;
-}
-#logs li.done {
-	background: gray;
-}
-#logs li.canceled {
-	background: red;
-}
 
 #input {
 	grid-area: input;
